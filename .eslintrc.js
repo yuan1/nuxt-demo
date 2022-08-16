@@ -15,6 +15,7 @@ module.exports = {
   ],
   plugins: [
   ],
+  "ignorePatterns": ["static/**", "**/vendor/*.js"],
   // add your custom rules here
   rules: {
     'no-console':'off'
